@@ -1645,11 +1645,18 @@ input.control-form-input {
     .realize-caption {
         margin: 0 auto;
     }
-
+    .centered3 {
+        display: flex;
+        justify-content: center;
+    }
 
     .centered-high {
-        width: 375px;
+        min-width: 767px;
+        margin: 0 auto;
         margin-top: -130px;
+        background-color: #131313;
+        position: relative;
+        z-index:3;
     }
 
     .centered-high-form {
