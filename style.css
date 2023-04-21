@@ -50,7 +50,6 @@ input[type="text"] {
 .fixed-container-types,
 .fixed-container-realize,
 .fixed-container-clients {
-
     margin: 0 auto;
     width: 1236px;
     min-width: 1236px;
@@ -64,18 +63,15 @@ input[type="text"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .ul-menu {
     width: 580px;
-
     display: flex;
     justify-content: space-between;
 }
 
 .section1 {
-
     background:
         linear-gradient(rgba(21, 19, 19, 0.7), rgba(0, 0, 0, 0.8)), url('img/4.jpg');
     background-repeat: no-repeat;
@@ -393,7 +389,6 @@ p {
     justify-content: space-between;
 }
 
-
 .centered {
     margin-top: -332px;
     display: flex;
@@ -458,7 +453,6 @@ span.text-video {
     color: #181818;
 }
 
-
 .fake {
     display: inline-flex;
     width: 18px;
@@ -519,14 +513,14 @@ h3.clients-caption {
 }
 
 .type2 {
-    background-image: url("img/image\ 3\ \(1\).jpg");
+    background-image: url("img/image3.1.jpg");
     background-size: 392px 421px;
     background-repeat: no-repeat;
     width: 392px;
 }
 
 .type3 {
-    background-image: url("img/image\ 3.jpg");
+    background-image: url("img/image3.jpg");
     background-size: 392px 421px;
     background-repeat: no-repeat;
     width: 392px;
@@ -554,7 +548,7 @@ h3.clients-caption {
 }
 
 .request {
-    background-image: url("img/image\ 6.1.jpg");
+    background-image: url("img/image6.1.jpg");
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: cover;
@@ -719,7 +713,7 @@ p.help-text {
 
 .realize-background {
     background:
-        linear-gradient(rgba(21, 19, 19, 0.7), rgba(0, 0, 0, 0.8)), url('img/image\ 5.1.jpg');
+        linear-gradient(rgba(21, 19, 19, 0.7), rgba(0, 0, 0, 0.8)), url('img/image5.1.jpg');
     background-position: bottom 70px right 1px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -736,7 +730,6 @@ p.help-text {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-
 }
 
 .realize-image-right {
@@ -745,7 +738,6 @@ p.help-text {
     flex-direction: column;
     padding-left: 40px;
     padding-right: 16px;
-
 }
 
 .realize-common {
@@ -987,253 +979,7 @@ input.control-form-input {
     display: none;
 }
 
-@media all and (min-width: 1000px) and (max-width: 1290px) {
-    .menu-container {
-        min-width: 900px;
-        width: 900px;
-    }
-
-    .ul-menu {
-        width: 450px;
-    }
-
-    .logo {
-        white-space: nowrap;
-    }
-
-    .tel {
-        display: none;
-    }
-
-    nav ul li {
-        margin-left: 6px;
-    }
-
-    .slider-navigation {
-        max-width: 470px;
-    }
-
-    .left-container img {
-        width: 80%;
-    }
-
-    .types3,
-    .types3-clients {
-        flex-wrap: wrap;
-    }
-
-    .request-left-part {
-        width: 40%;
-    }
-
-    .header,
-    .footer,
-    .main {
-        min-width: 1000px;
-    }
-
-    .section1 {
-        min-width: 880px;
-    }
-
-    .rigth-part,
-    .right-container {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .fixed-container {
-        width: 900px;
-        min-width: 900px;
-    }
-
-    .fixed-container-types,
-    .fixed-container-clients {
-        width: 900px;
-        min-width: 900px;
-    }
-
-    .type1,
-    .type2,
-    .type3,
-    .type4 {
-        margin-bottom: 30px;
-    }
-
-    .realize-common {
-        margin-left: 20px;
-        justify-content: flex-start;
-    }
-
-    .realize-image {
-        display: flex;
-        justify-content: flex-start;
-        width: 40%;
-    }
-
-    .realize-image-left,
-    .realize-image-right {
-        width: 70%;
-    }
-}
-
-@media all and (min-width: 768px) and (max-width: 999px) {
-    .menu-container {
-        min-width: 768px;
-        width: 768px;
-        justify-content: space-around;
-    }
-
-    .ul-menu {
-        width: 400px;
-    }
-
-    .rigth-part {
-        margin-left: 20px
-    }
-
-    .nav-slider {
-        margin-top: -50px;
-    }
-
-    .logo {
-        white-space: nowrap;
-    }
-
-    .tel-btn {
-        display: none;
-    }
-
-    nav ul li {
-        margin-left: 6px;
-    }
-
-    .slider-navigation,
-    .left-container {
-        display: none;
-    }
-
-    .left-container img {
-        width: 80%;
-        display: none;
-    }
-
-    .secret-slider {
-        display: none;
-    }
-
-    .types3,
-    .types3-clients {
-        flex-wrap: wrap;
-    }
-
-    .request-left-part {
-        width: 65%;
-    }
-
-    .request-right-part {
-        display: none;
-    }
-
-    .save-text-p {
-        width: 400px;
-    }
-
-    .save-svg {
-        margin-left: 50%;
-    }
-
-    .header,
-    .footer,
-    .main {
-        min-width: 768px;
-    }
-
-    .section1 {
-        min-width: 768px;
-    }
-
-    .right-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    .fixed-container {
-        width: 768px;
-        min-width: 768px;
-    }
-
-    .container {
-        display: block;
-    }
-
-    .parts {
-        height: 100px;
-    }
-
-    .mini-container {
-        align-content: center;
-        justify-content: space-between;
-    }
-
-    .image img {
-        width: 70%;
-        height: auto;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .image {
-        text-align: center;
-    }
-
-    form.form-control {
-        width: 600px;
-    }
-
-    .fixed-container-types,
-    .fixed-container-clients {
-        width: 768px;
-        min-width: 768px;
-    }
-
-    .type1,
-    .type2,
-    .type3,
-    .type4 {
-        margin-bottom: 30px;
-    }
-
-    .realize-common {
-        margin-left: 20px;
-        justify-content: flex-start;
-    }
-
-    .realize-image {
-        display: none;
-
-    }
-
-    .types3,
-    .types3-clients {
-        display: flex;
-        flex-direction: column;
-        align-items: center
-    }
-
-    .realize-description {
-        width: 60%;
-        margin-bottom: 30px;
-    }
-
-    .mapyandex iframe {
-        width: 500px;
-    }
-}
-
-@media all and (min-width: 374px) and (max-width: 767px) {
+@media all and (min-width: 374px) and (max-width: 1290px) {
     .menu-container {
         min-width: 339px;
         width: 339px;
@@ -1542,14 +1288,14 @@ input.control-form-input {
     }
 
     .type2 {
-        background-image: url(img/image\ 3\ \(1\).jpg);
+        background-image: url(img/image3.1).jpg);
         background-size: 340px 365px;
         background-repeat: no-repeat;
         width: 340px;
     }
 
     .type3 {
-        background-image: url(img/image\ 3.jpg);
+        background-image: url(img/image3.jpg);
         background-size: 340px 365px;
         background-repeat: no-repeat;
         width: 340px;
