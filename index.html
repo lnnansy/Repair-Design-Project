@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bem.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap"
@@ -13,29 +13,26 @@
 
     <title>Главная</title>
 </head>
-
 <body>
     <header class="header">
-
-
         <div class="menu-container">
             <div class="logo">
                 IC "Repair Design Project"
             </div>
             <nav class="menu">
-                <ul class="ul-menu">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#video">MEASUREMENT</a></li>
-                    <li><a href="#types">TEAM</a></li>
-                    <li><a href="#request">REVIEWS</a></li>
-                    <li><a href="#map">CONTACTS</a></li>
+                <ul class="menu-lists">
+                    <li class="menu-lists__list "><a href="index.html">HOME</a></li>
+                    <li class="menu-lists__list"><a href="#projects">PROJECTS</a></li>
+                    <li class="menu-lists__list"><a href="#video">MEASUREMENT</a></li>
+                    <li class="menu-lists__list"><a href="#types">TEAM</a></li>
+                    <li class="menu-lists__list"><a href="#request">REVIEWS</a></li>
+                    <li class="menu-lists__list"><a href="#map">CONTACTS</a></li>
                 </ul>
             </nav>
             <div class="tel-btn">
-                <div class="tel"><a href="tel:+79287683239">+7 (928) 768-32-39</a></div>
-                <div class="btn-callback">
-                    <button class="button btn-yellow">Request a call</button>
+                <div class="tel-btn__tel"><a href="tel:+79287683239">+7 (928) 768-32-39</a></div>
+                <div class="tel-btn__btn-callback">
+                    <button class="tel-btn__button btn-yellow button">Request a call</button>
                 </div>
             </div>
 
@@ -45,48 +42,48 @@
     <main class="main">
         <section class="section1">
             <div class="fixed-container">
-                <div class="rigth-part">
-                    <h1 class="zag">Turnkey Repair in the city of <span class="title">Rostov-on-Don</span></h1>
-                    <p class="description">Get ready-made turnkey repairs on time<br>
+                <div class="section1__rigth-part">
+                    <h1 class="section1__zag">Turnkey Repair in the city of <span class="section1__title">Rostov-on-Don</span></h1>
+                    <p class="section1__description">Get ready-made turnkey repairs on time<br>
                         with work time saving up to 45 days and 20% from <br>
                         cost of materials due to the organization of work</p>
-                    <button class="button btn-yellow-section1">CALCULATE THE COST</button>
-                    <button class="button btn-transparent">SUBMIT YOUR APPLICATION</button>
+                    <button class="button section1__btn-yellow-section1">CALCULATE THE COST</button>
+                    <button class="button section1__btn-transparent">SUBMIT YOUR APPLICATION</button>
                 </div>
             </div>
         </section>
         <section class="slider" id="projects">
-            <div class="fixed-container">
+            <div class="slider__fixed-container fixed-container">
 
-                <div class="container">
+                <div class="slider__container">
                     <div class="right-container">
-                        <h2 class="caption-slider">Completed projects</h2>
-                        <p class="description2">Only a small part of the work performed by our company is presented<br>
+                        <h2 class="right-container__caption-slider">Completed projects</h2>
+                        <p class="right-container__description2">Only a small part of the work performed by our company is presented<br>
                             on
                             the site. For 14 years on in the construction<br>
                             market we have made happy more than 1000 families</p>
-                        <div class="secret-slider">
+                        <div class="slider__secret-slider">
                             <img src="img/dd.jpg" alt="">
                         </div>
                         <div class="mini-container">
-                            <div class="parts">
-                                <h3 class="minicaption-slider">City:</h3>
-                                <span class="descr-minicaption-slider">Rostov-on-Don LCD admiral</span>
+                            <div class="mini-container__parts">
+                                <h3 class="mini-container__minicaption-slider">City:</h3>
+                                <span class="mini-container__descr-minicaption-slider">Rostov-on-Don LCD admiral</span>
                             </div>
-                            <div class="parts">
-                                <h3 class="minicaption-slider">apartment area:</h3>
-                                <span class="descr-minicaption-slider">81 m2</span>
+                            <div class="mini-container__parts">
+                                <h3 class="mini-container__minicaption-slider">apartment area:</h3>
+                                <span class="mini-container__descr-minicaption-slider">81 m2</span>
                             </div>
-                            <div class="parts">
-                                <h3 class="minicaption-slider">Repair time:</h3>
-                                <span class="descr-minicaption-slider">3.5 months</span>
+                            <div class="mini-container__parts">
+                                <h3 class="mini-container__minicaption-slider">Repair time:</h3>
+                                <span class="mini-container__descr-minicaption-slider">3.5 months</span>
                             </div>
-                            <div class="parts">
-                                <h3 class="minicaption-slider">Repair Cost:</h3>
-                                <span class="descr-minicaption-slider">Upon request</span>
+                            <div class="mini-container__parts">
+                                <h3 class="mini-container__minicaption-slider">Repair Cost:</h3>
+                                <span class="mini-container__descr-minicaption-slider">Upon request</span>
                             </div>
                         </div>
-                        <div class="nav-slider">
+                        <div class="right-container__nav-slider">
 
                             <svg width="206" height="14" viewBox="0 0 206 14" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -114,11 +111,11 @@
 
                     </div>
                     <div class="left-container">
-                        <div class="slider-navigation">
+                        <div class="left-container__slider-navigation">
                             <ul class="slider-nav">
-                                <li class="item-slider-nav"><a href="#">Rostov-on-Don, Admiral</a></li>
-                                <li class="item-slider-nav"><a href="#">Sochi Thieves</a></li>
-                                <li class="item-slider-nav"><a href="#">Rostov-on-Don Patriotic</a></li>
+                                <li class="slider-nav__item"><a href="#">Rostov-on-Don, Admiral</a></li>
+                                <li class="slider-nav__item"><a href="#">Sochi Thieves</a></li>
+                                <li class="slider-nav__item"><a href="#">Rostov-on-Don Patriotic</a></li>
                             </ul>
                         </div>
                         <img src="img/image2.1.jpg" alt="">
@@ -129,10 +126,10 @@
         <section class="video" id="video">
             <div class="fixed-container">
                 <div class="centered">
-                    <h3 class="video-caption">
+                    <h3 class="centered__video-caption video-caption">
                         online control
                     </h3>
-                    <div class="icon-title-video">
+                    <div class="centered__icon-title-video">
                         <svg width="32" height="22" viewBox="0 0 32 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.000488281" y="0.812012" width="32" height="1.54334" rx="0.771672"
                                 fill="#E3B873" />
@@ -155,36 +152,36 @@
 
 
                     </div>
-                    <div class="image">
+                    <div class="centered__image">
                         <img src="img/image6.jpg" alt="" width="817" height="434">
                     </div>
                     <hr>
-                    <p class="black-p">At each facility, a camera is installed that broadcasts the progress of work on
+                    <p class="centered__black-p">At each facility, a camera is installed that broadcasts the progress of work on
                         the clock. At any time, you can go to our website and monitor the progress of work in your
                         apartment. You can watch the live broadcast from one of our facilities!
                         Leave a request below and you will receive a link to the broadcast.</p>
-                    <form method="post" class="form-control">
+                    <form method="post" class="video__form-control">
                         <div class="form-control-common">
-                            <div class="control-form">
-                                <label for="Name" class="control-form-label">Name</label>
-                                <input type="text" name="Name" id="Name" class="control-form-input"
+                            <div class="form-control-common__control-form">
+                                <label for="Name" class="form-control-common__control-form-label">Name</label>
+                                <input type="text" name="Name" id="Name" class="form-control-common__control-form-input"
                                     placeholder="What is your name:">
                             </div>
-                            <div class="control-form">
-                                <label for="Phone" class="control-form-label">Phone</label>
-                                <input type="text" name="Phone" id="Phone" class="control-form-input"
+                            <div class="form-control-common__control-form">
+                                <label for="Phone" class="form-control-common__control-form-label">Phone</label>
+                                <input type="text" name="Phone" id="Phone" class="form-control-common__control-form-input"
                                     placeholder="Your phone number:">
                             </div>
-                            <button class="button btn-yellow-control">Submit</button>
+                            <button class="button form-control-common__btn-yellow-control">Submit</button>
                         </div>
 
 
                     </form>
-                    <div class="chexbox-video">
-                        <label class="label">
-                            <input type="checkbox" class="checkbox">
-                            <span class="fake"></span>
-                            <span class="text-video">I agree to the processing of personal data.</span>
+                    <div class="video__chexbox-video">
+                        <label class="video__label">
+                            <input type="checkbox" class="video__checkbox">
+                            <span class="video__fake"></span>
+                            <span class="video__text-video">I agree to the processing of personal data.</span>
                         </label>
                     </div>
                 </div>
@@ -194,10 +191,10 @@
         <section class="types" id="types">
             <div class="fixed-container-types">
                 <div class="centered2">
-                    <h3 class="type-caption">
+                    <h3 class="centered2__type-caption">
                         TYPES OF REPAIR
                     </h3>
-                    <div class="icon-title-types">
+                    <div class="centered2__icon-title-types">
                         <svg width="32" height="22" viewBox="0 0 32 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.000488281" y="0.812012" width="32" height="1.54334" rx="0.771672"
                                 fill="#E3B873" />
@@ -220,57 +217,57 @@
                 </div>
                 <div class="types3">
                     <div class="type1">
-                        <div class="descriptionoftypes">
-                            <h4 class="caption-types">Redecorating</h4>
-                            <ul class="spisok-types">
-                                <li>Dismantling of old coatings</li>
-                                <li>Wallpapering</li>
-                                <li>Painting walls and ceilings</li>
-                                <li>Laying flooring</li>
-                                <li>Replacing plumbing</li>
-                                <li>Replacing sockets and switches</li>
-                                <li>Replacing doors</li>
+                        <div class="types3__descriptionoftypes">
+                            <h4 class="types3__caption-types">Redecorating</h4>
+                            <ul class="types3__spisok-types">
+                                <li class="types3__spisok-type">Dismantling of old coatings</li>
+                                <li class="types3__spisok-type">Wallpapering</li>
+                                <li class="types3__spisok-type">Painting walls and ceilings</li>
+                                <li class="types3__spisok-type">Laying flooring</li>
+                                <li class="types3__spisok-type">Replacing plumbing</li>
+                                <li class="types3__spisok-type">Replacing sockets and switches</li>
+                                <li class="types3__spisok-type">Replacing doors</li>
                             </ul>
 
                         </div>
-                        <div class="btn-from">
-                            <button class="button btn-yellow from">from 900 rub / m2</button>
+                        <div class="types3__btn-from">
+                            <button class="types3__yellow-from">from 900 rub / m2</button>
                         </div>
                     </div>
                     <div class="type2">
-                        <div class="descriptionoftypes">
-                            <h4 class="caption-types">Overhaul</h4>
-                            <ul class="spisok-types">
-                                <li>Dismantling of old coatings</li>
-                                <li>Wallpapering</li>
-                                <li>Painting walls and ceilings</li>
-                                <li>Laying flooring</li>
-                                <li>Replacing plumbing</li>
-                                <li>Replacing sockets and switches</li>
-                                <li>Replacing doors</li>
+                        <div class="types3__descriptionoftypes">
+                            <h4 class="types3__caption-types">Overhaul</h4>
+                            <ul class="types3__spisok-types">
+                                <li class="types3__spisok-type">Dismantling of old coatings</li>
+                                <li class="types3__spisok-type">Wallpapering</li>
+                                <li class="types3__spisok-type">Painting walls and ceilings</li>
+                                <li class="types3__spisok-type">Laying flooring</li>
+                                <li class="types3__spisok-type">Replacing plumbing</li>
+                                <li class="types3__spisok-type">Replacing sockets and switches</li>
+                                <li class="types3__spisok-type">Replacing doors</li>
                             </ul>
 
                         </div>
-                        <div class="btn-from">
-                            <button class="button btn-yellow from">from 900 rub / m2</button>
+                        <div class="types3__btn-from">
+                            <button class="types3__yellow-from">from 900 rub / m2</button>
                         </div>
                     </div>
                     <div class="type3">
-                        <div class="descriptionoftypes">
-                            <h4 class="caption-types">Designer Repair</h4>
-                            <ul class="spisok-types">
-                                <li>Dismantling of old coatings</li>
-                                <li>Wallpapering</li>
-                                <li>Painting walls and ceilings</li>
-                                <li>Laying flooring</li>
-                                <li>Replacing plumbing</li>
-                                <li>Replacing sockets and switches</li>
-                                <li>Replacing doors</li>
+                        <div class="types3__descriptionoftypes">
+                            <h4 class="types3__caption-types">Designer Repair</h4>
+                            <ul class="types3__spisok-types">
+                                <li class="types3__spisok-type">Dismantling of old coatings</li>
+                                <li class="types3__spisok-type">Wallpapering</li>
+                                <li class="types3__spisok-type">Painting walls and ceilings</li>
+                                <li class="types3__spisok-type">Laying flooring</li>
+                                <li class="types3__spisok-type">Replacing plumbing</li>
+                                <li class="types3__spisok-type">Replacing sockets and switches</li>
+                                <li class="types3__spisok-type">Replacing doors</li>
                             </ul>
 
                         </div>
-                        <div class="btn-from">
-                            <button class="button btn-yellow from">from 900 rub / m2</button>
+                        <div class="types3__btn-from">
+                            <button class="types3__yellow-from">from 900 rub / m2</button>
                         </div>
                     </div>
                 </div>
@@ -279,9 +276,9 @@
 
         <section class="request" id="request">
             <div class="fixed-container">
-                <div class="request-parts">
+                <div class="request__parts request-parts ">
                     <div class="request-left-part">
-                        <div class="request-left-part-item">
+                        <div class="request-left-part__item request-left-part-item">
 
 
 
@@ -332,10 +329,10 @@
 
 
 
-                            <p class="request-text">Our specialist will arrive for measurements per day<br> contact, or
+                            <p class="request-left-part__text request-text">Our specialist will arrive for measurements per day<br> contact, or
                                 appoint a date convenient for you</p>
                         </div>
-                        <div class="request-left-part-item">
+                        <div class="request-left-part__item request-left-part-item">
 
                             <svg width="88" height="88" viewBox="0 0 88 88" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -351,9 +348,9 @@
                                     
                                 </defs>
                             </svg>
-                            <p class="request-text">Free metering</p>
+                            <p class="request-left-part__text request-text">Free metering</p>
                         </div>
-                        <div class="request-left-part-item">
+                        <div class="request-left-part__item request-left-part-item">
 
                             <svg width="88" height="88" viewBox="0 0 88 88" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -383,9 +380,9 @@
                                 </defs>
                             </svg>
 
-                            <p class="request-text">Free consultation</p>
+                            <p class="request-left-part__text request-text">Free consultation</p>
                         </div>
-                        <div class="request-left-part-item">
+                        <div class="request-left-part__item request-left-part-item">
 
                             <svg width="88" height="88" viewBox="0 0 88 88" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -415,38 +412,38 @@
                                 </defs>
                             </svg>
 
-                            <p class="request-text">Get a cost estimate and the timing of your future repairs</p>
+                            <p class="request-left-part__text request-text">Get a cost estimate and the timing of your future repairs</p>
                         </div>
                     </div>
-                    <div class="request-right-part">
-                        <h4 class="request-caption">Leave a request for free departure of the measurer</h4>
+                    <div class="request__right-part">
+                        <h4 class="request-right-part__caption">Leave a request for free departure of the measurer</h4>
                         <form class="second-form">
 
-                            <div class="second-form-item">
-                                <label for="Name2" class="request-label">Name</label>
-                                <input type="text" id="Name2" class="request-input" placeholder="What is your name:">
+                            <div class="second-form__item second-form-item">
+                                <label for="Name2" class="second-form__request-label request-label">Name</label>
+                                <input type="text" id="Name2" class="second-form__request-input request-input" placeholder="What is your name:">
 
                             </div>
-                            <div class="second-form-item">
-                                <label for="number2" class="request-label">Phone</label>
-                                <input type="text" id="number2" class="request-input" placeholder="Your phone number:">
+                            <div class="second-form__item second-form-item">
+                                <label for="number2" class="second-form__request-label request-label">Phone</label>
+                                <input type="text" id="number2" class="second-form__request-input request-input" placeholder="Your phone number:">
                             </div>
-                            <div class="second-form-item">
-                                <label for="email2" class="request-label">Email</label>
-                                <input type="text" id="email2" class="request-input" placeholder="Your email">
+                            <div class="second-form__item second-form-item">
+                                <label for="email2" class="second-form__request-label request-label">Email</label>
+                                <input type="text" id="email2" class="second-form__request-input request-input" placeholder="Your email">
                             </div>
 
 
                         </form>
-                        <div class="second-checkbox-request">
-                            <label class="label">
-                                <input type="checkbox" class="checkbox">
-                                <span class="fake"></span>
-                                <span class="request-checkbox-text">I agree to the processing of personal data.</span>
+                        <div class="request__second-checkbox second-checkbox-request">
+                            <label class="second-checkbox-request__label">
+                                <input type="checkbox" class="second-checkbox-request__checkbox">
+                                <span class="second-checkbox-request__fake"></span>
+                                <span class="second-checkbox-request__request-checkbox-text">I agree to the processing of personal data.</span>
                             </label>
                         </div>
-                        <div class="btn-request">
-                            <button class="button btn-yellow-request">Call the measurer</button>
+                        <div class="request__btn-request btn-request">
+                            <button class="btn-request__yellow btn-yellow-request">Call the measurer</button>
                         </div>
                     </div>
 
@@ -458,9 +455,9 @@
         </section>
         <div class="help">
             <div class="fixed-container">
-                <div class="save">
+                <div class="help__save">
 
-                    <div class="save-svg">
+                    <div class="help__svg">
                         <svg width="113" height="113" viewBox="0 0 113 113" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_d_1_11114)">
@@ -496,34 +493,34 @@
                             </defs>
                         </svg>
                     </div>
-                    <div class="save-text-p">
-                        <p class="help-text">Help save 10 - 20% of the cost of materials</p>
+                    <div class="help__text">
+                        <p class="help__help-text">Help save 10 - 20% of the cost of materials</p>
                     </div>
                 </div>
             </div>
         </div>
         <section class="realize">
-            <div class="realize-background">
-                <div class="fixed-container-realize">
-                    <div class="realize-common">
-                        <div class="realize-description">
-                            <h2 class="realize-caption">We realize your wildest fantasies</h2>
-                            <div class="secret-slider">
+            <div class="realize__background">
+                <div class="realize__fixed-container fixed-container">
+                    <div class="realize__common">
+                        <div class="realize__description">
+                            <h2 class="realize__caption">We realize your wildest fantasies</h2>
+                            <div class="realize__secret-slider">
                                 <img src="img/image5.3.jpg" alt="">
                             </div>
-                            <div class="ul-roster">
-                                <ul class="roster">
-                                    <li class="roster-item"><a href="#">American classic</a></li>
-                                    <li class="roster-item"><a href="#">Empire</a></li>
-                                    <li class="roster-item"><a href="#">Classical</a></li>
-                                    <li class="roster-item"><a href="#">Loft</a></li>
-                                    <li class="roster-item"><a href="#">Minimalism</a></li>
-                                    <li class="roster-item"><a href="#">Provence</a></li>
-                                    <li class="roster-item"><a href="#">Romanticism</a></li>
-                                    <li class="roster-item"><a href="#">Scandinavian style</a></li>
-                                    <li class="roster-item"><a href="#">Mediterranean style</a></li>
-                                    <li class="roster-item"><a href="#">High tech</a></li>
-                                    <li class="roster-item"><a href="#">Eclecticism</a></li>
+                            <div class="realize__ul-roster">
+                                <ul class="realize__roster">
+                                    <li class="realize__roster-item"><a href="#">American classic</a></li>
+                                    <li class="realize__roster-item"><a href="#">Empire</a></li>
+                                    <li class="realize__roster-item"><a href="#">Classical</a></li>
+                                    <li class="realize__roster-item"><a href="#">Loft</a></li>
+                                    <li class="realize__roster-item"><a href="#">Minimalism</a></li>
+                                    <li class="realize__roster-item"><a href="#">Provence</a></li>
+                                    <li class="realize__roster-item"><a href="#">Romanticism</a></li>
+                                    <li class="realize__roster-item"><a href="#">Scandinavian style</a></li>
+                                    <li class="realize__roster-item"><a href="#">Mediterranean style</a></li>
+                                    <li class="realize__roster-item"><a href="#">High tech</a></li>
+                                    <li class="realize__roster-item"><a href="#">Eclecticism</a></li>
 
 
 
@@ -531,15 +528,15 @@
                             </div>
 
                         </div>
-                        <div class="realize-image">
-                            <div class="realize-image-left">
-                                <img src="img/image5.jpg" alt="">
-                                <img src="img/image5-1.jpg" alt="">
+                        <div class="realize__image">
+                            <div class="realize__image--left">
+                                <img class="realize__img" src="img/image5.jpg" alt="">
+                                <img class="realize__img" src="img/image5-1.jpg" alt="">
 
                             </div>
-                            <div class="realize-image-right">
-                                <img src="img/image5-2.jpg" alt="">
-                                <img src="img/image-5-3.jpg" alt="">
+                            <div class="realize__image--right">
+                                <img class="realize__img" src="img/image5-2.jpg" alt="">
+                                <img class="realize__img" src="img/image-5-3.jpg" alt="">
 
                             </div>
 
@@ -552,12 +549,12 @@
             </div>
         </section>
         <section class="clients">
-            <div class="fixed-container-clients">
+            <div class="clients__fixed-container fixed-container">
                 <div class="centered2">
-                    <h3 class="clients-caption">
+                    <h3 class="centered2__clients-caption">
                         our clients
                     </h3>
-                    <div class="icon-title-clients">
+                    <div class="centered2__icon-title-clients">
                         <svg width="32" height="28" viewBox="0 0 32 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.000488281" y="0.812012" width="32" height="1.54334" rx="0.771672"
                                 fill="#E3B873" />
@@ -594,25 +591,25 @@
                                 fill="#E3B873" />
                         </svg>
                     </div>
-                    <p class="centered-text">80% of our customers recommend us to their friends and family.</p>
+                    <p class="centered2__text">80% of our customers recommend us to their friends and family.</p>
                 </div>
-                <div class="types3-clients">
-                    <div class="type4">
-                        <div class="descriptionoftypes4">
-                            <div class="type4-head">
-                                <div class="type4-foto">
+                <div class="centered2__types3-clients">
+                    <div class="centered2__type4">
+                        <div class="centered2__descriptionoftypes4">
+                            <div class="centered2__type4-head type4-head ">
+                                <div class="centered2__type4-foto type4-foto">
                                     <img src="img/foto1.png" alt="">
                                 </div>
-                                <h4 class="caption-types">Fedosova Maria Konstantinovna</h4>
+                                <h4 class="centered2__caption-types">Fedosova Maria Konstantinovna</h4>
                             </div>
-                            <p class="type4-text">I want to thank the guys for their work. We put your shower part in
+                            <p class="centered2__type4-text">I want to thank the guys for their work. We put your shower part in
                                 repair. I am very grateful that I referred to the repair as to my own. Great thanks I
                                 express the project to Georgia for its professionalism and approach.
                                 The repair process was turned out in terms, faster than anticipated. Team mobile and
                                 professional. Works performed qualitatively without comments. Quality satisfied. Prices
                                 democratic. I recommend these masters.</p>
                         </div>
-                        <div class="type4-btn">
+                        <div class="centered2__type4-btn">
                             <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -654,12 +651,12 @@
                                     fill="white" stroke="white" stroke-width="0.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                            <span class="type4caption1"> 40 M2</span>
+                            <span class="centered2__type4caption1"> 40 M2</span>
                             <svg width="2" height="55" viewBox="0 0 2 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.08988 54.035L1.08987 0" stroke="white" stroke-width="0.75" />
                             </svg>
-                            <span class="type4caption2"> 48 days</span>
+                            <span class="centered2__type4caption2"> 48 days</span>
 
                             <svg width="34" height="32" viewBox="0 0 34 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -706,22 +703,22 @@
 
                         </div>
                     </div>
-                    <div class="type4">
-                        <div class="descriptionoftypes4">
-                            <div class="type4-head">
-                                <div class="type4-foto">
+                    <div class="centered2__type4">
+                        <div class="centered2__descriptionoftypes4">
+                            <div class="centered2__type4-head type4-head ">
+                                <div class="centered2__type4-foto type4-foto">
                                     <img src="img/foto2.png" alt="">
                                 </div>
-                                <h4 class="caption-types">Afanasyev Sergey Alexandrovich</h4>
+                                <h4 class="centered2__caption-types">Afanasyev Sergey Alexandrovich</h4>
                             </div>
-                            <p class="type4-text">I want to thank the guys for their work. We put your shower part in
+                            <p class="centered2__type4-text">I want to thank the guys for their work. We put your shower part in
                                 repair. I am very grateful that I referred to the repair as to my own. Great thanks I
                                 express the project to Georgia for its professionalism and approach.
                                 The repair process was turned out in terms, faster than anticipated. Team mobile and
                                 professional. Works performed qualitatively without comments. Quality satisfied. Prices
                                 democratic. I recommend these masters.</p>
                         </div>
-                        <div class="type4-btn">
+                        <div class="centered2__type4-btn">
                             <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -763,12 +760,12 @@
                                     fill="white" stroke="white" stroke-width="0.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                            <span class="type4caption1"> 90 M2</span>
+                            <span class="centered2__type4caption1"> 90 M2</span>
                             <svg width="2" height="55" viewBox="0 0 2 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.08988 54.035L1.08987 0" stroke="white" stroke-width="0.75" />
                             </svg>
-                            <span class="type4caption2"> 128 days</span>
+                            <span class="centered2__type4caption2"> 128 days</span>
 
                             <svg width="34" height="32" viewBox="0 0 34 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -814,23 +811,23 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="type4">
-                        <div class="descriptionoftypes4">
-                            <div class="type4-head">
-                                <div class="type4-foto">
+                    <div class="centered2__type4">
+                        <div class="centered2__descriptionoftypes4">
+                            <div class="centered2__type4-head type4-head ">
+                                <div class="centered2__type4-foto type4-foto">
                                     <img src="img/foto3.png" alt="">
                                 </div>
 
-                                <h4 class="caption-types">Kiriev Egor Leonidovich</h4>
+                                <h4 class="centered2__caption-types">Kiriev Egor Leonidovich</h4>
                             </div>
-                            <p class="type4-text">I want to thank the guys for their work. We put your shower part in
+                            <p class="centered2__type4-text">I want to thank the guys for their work. We put your shower part in
                                 repair. I am very grateful that I referred to the repair as to my own. Great thanks I
                                 express the project to Georgia for its professionalism and approach.
                                 The repair process was turned out in terms, faster than anticipated. Team mobile and
                                 professional. Works performed qualitatively without comments. Quality satisfied. Prices
                                 democratic. I recommend these masters.</p>
                         </div>
-                        <div class="type4-btn">
+                        <div class="centered2__type4-btn">
                             <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -872,12 +869,12 @@
                                     fill="white" stroke="white" stroke-width="0.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                            <span class="type4caption1"> 56 M2</span>
+                            <span class="centered2__type4caption1"> 56 M2</span>
                             <svg width="2" height="55" viewBox="0 0 2 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.08988 54.035L1.08987 0" stroke="white" stroke-width="0.75" />
                             </svg>
-                            <span class="type4caption2"> 86 days</span>
+                            <span class="centered2__type4caption2"> 86 days</span>
 
                             <svg width="34" height="32" viewBox="0 0 34 32" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -932,48 +929,47 @@
         </section>
         <section class="map">
             <div class="fixed-container">
-
                 <div class="centered3">
-                    <div class="centered-high" id="map">
-                        <div class="centered-high-form">
-                            <h3 class="video-caption">
+                    <div class="centered3__high" id="map">
+                        <div class="centered3__high-form">
+                            <h3 class="centered3__video-caption video-caption">
                                 have any questions?
                             </h3>
-                            <div class="icon-title">
+                            <div class="centered3__icon-title">
 
                             </div>
 
 
-                            <form class="third-form">
-                                <div class="third-form-part-top">
-                                    <div class="third-form-part">
-                                        <label for="name3" class="request-label">Name</label>
-                                        <input type="text" id="name3" class="request-input-1"
+                            <form class="centered3__third-form third-form">
+                                <div class="third-form__part-top third-form-part-top">
+                                    <div class="third-form__part third-form-part">
+                                        <label for="name3" class="third-form__request-label request-label">Name</label>
+                                        <input type="text" id="name3" class="third-form__request-input-1"
                                             placeholder="What is your name:">
                                     </div>
-                                    <div class="third-form-part">
-                                        <label for="number3" class="request-label">Phone</label>
-                                        <input type="text" id="number3" class="request-input-1"
+                                    <div class="third-form__part third-form-part">
+                                        <label for="number3" class="third-form__request-label request-label">Phone</label>
+                                        <input type="text" id="number3" class="third-form__request-input-1"
                                             placeholder="Your phone number:">
                                     </div>
                                 </div>
-                                <div class="third-form-part-bottom">
-                                    <label for="quest3" class="request-label">Question</label>
-                                    <input type="text" id="quest3" class="request-input" placeholder="I want to know:">
+                                <div class="third-form__bottom third-form-bottom">
+                                    <label for="quest3" class="third-form__request-label request-label">Question</label>
+                                    <input type="text" id="quest3" class="third-form__request-input request-input" placeholder="I want to know:">
                                 </div>
 
-                                <div class="second-checkbox-map">
-                                    <label class="label">
-                                        <input type="checkbox" class="checkbox">
-                                        <span class="fake"></span>
-                                        <span class="map-checkbox-text">I agree to the processing of personal
+                                <div class="map__second-checkbox-map second-checkbox-map">
+                                    <label class="second-checkbox-map__label">
+                                        <input type="checkbox" class="second-checkbox-map__checkbox">
+                                        <span class="second-checkbox-map__fake"></span>
+                                        <span class="second-checkbox-map__map-checkbox-text">I agree to the processing of personal
                                             data.</span>
                                     </label>
                                 </div>
 
                             </form>
-                            <div class="map-btn">
-                                <button class="button btn-yellow-map">Submit</button>
+                            <div class="map__btn">
+                                <button class="button map__btn-yellow-map">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -982,12 +978,11 @@
                 <div class="centered2">
                     <div class="mapyandex-small">
                         <img src="img/image7.1.jpg" alt="map">
-
                     </div>
-                    <h3 class="map-caption">Rostov-on-Don, Nansen St., 239 Shopping Center
+                    <h3 class="map__caption">Rostov-on-Don, Nansen St., 239 Shopping Center
                         Decorum Tel +7 (928) 768 32 29</h3>
-                    <div class="icon-title-map">
-                        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" class="icons-footer"
+                    <div class="map__icon-title">
+                        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" class="map__icons-footer"
                             xmlns="http://www.w3.org/2000/svg">
                             <circle cx="14" cy="14.3218" r="14" fill="#E3B873" />
                             <path
@@ -996,9 +991,7 @@
                             <path d="M21 10.522L14 15.422L7 10.522" stroke="white" stroke-width="1.5"
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-
-
-                        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" class="icons-footer"
+                        <svg width="28" height="29" viewBox="0 0 28 29" fill="none" class="map__icons-footer"
                             xmlns="http://www.w3.org/2000/svg">
                             <circle cx="14" cy="14.3218" r="14" fill="#E3B873" />
                             <path
@@ -1012,48 +1005,34 @@
                     <div class="mapyandex">
                         <script async
                             src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aec94c382097a098b152298c822e2bc25304d1bc3634503b773e099392d32b41c&amp;width=925&amp;height=465&amp;lang=ru_RU&amp;scroll=true"></script>
-
                     </div>
                 </div>
             </div>
-
         </section>
-
-
     </main>
-
-
-
-
-
     <footer class="footer">
-
-
-
         <div class="menu-container">
             <div class="logo">
                 IC "Repair Design Project"
             </div>
             <nav class="menu">
-                <ul class="ul-menu">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">MEASUREMENT</a></li>
-                    <li><a href="#">TEAM</a></li>
-                    <li><a href="#">REVIEWS</a></li>
-                    <li><a href="#">CONTACTS</a></li>
+                <ul class="menu-lists">
+                    <li class="menu-lists__list "><a href="index.html">HOME</a></li>
+                    <li class="menu-lists__list"><a href="#projects">PROJECTS</a></li>
+                    <li class="menu-lists__list"><a href="#video">MEASUREMENT</a></li>
+                    <li class="menu-lists__list"><a href="#types">TEAM</a></li>
+                    <li class="menu-lists__list"><a href="#request">REVIEWS</a></li>
+                    <li class="menu-lists__list"><a href="#map">CONTACTS</a></li>
                 </ul>
             </nav>
             <div class="tel-btn">
-                <div class="tel"><a href="tel:+79287683239">+7 (928) 768-32-39</a></div>
-                <div class="btn-callback">
-                    <button class="button btn-yellow">Request a call</button>
+                <div class="tel-btn__tel"><a href="tel:+79287683239">+7 (928) 768-32-39</a></div>
+                <div class="tel-btn__btn-callback">
+                    <button class="tel-btn__button btn-yellow button">Request a call</button>
                 </div>
             </div>
 
         </div>
-
     </footer>
 </body>
-
 </html>
